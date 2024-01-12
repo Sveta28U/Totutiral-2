@@ -17,13 +17,6 @@ ul {
     text-decoration: none;
 }
 
-.visually-hidden {
-    margin: -1px;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
 /*------------------HEADER----------*/
 
 .header-logo {
@@ -91,7 +84,7 @@ color: var(--IRIS, #4D5AE5);
 }
 .header-address-link:hover,
 .header-address-link:focus {
-    background-color:var(--OCEAN, #404BBF);
+    color:var(--OCEAN, #404BBF);
 }
 
 
@@ -264,7 +257,7 @@ color: var(--NAVY-BLUE, #2E2F42);
         font-style: normal;
         font-weight: 400;
         line-height: 1.5;
-        letter-spacing: 0.03em;
+        letter-spacing: 0.02em;
 
 }
 /*----------------------------*/
